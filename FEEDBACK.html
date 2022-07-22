@@ -1,0 +1,104 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title> About myself</title>
+    <link rel ="stylesheet" href="C:\Users\hp\Desktop\Project\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/5ecefd2893.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+ 
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="images/LOGO.jpeg"></a>
+                
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="recent activities.html">RECENT ACTIVITIES</a></li>
+                        <li><a href="Earned certificates.html">EARNED CERTIFICATES</a></li>
+                        <li><a href="FEEDBACK.html">FEEDBACKS</a></li>
+                        <li><a href="CONTACT.html">CONTACT ME</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>   
+            </nav>
+            <h1 style="font-size: 56px; margin-bottom:5%;">FEEDBACKS</h1>
+
+        </section>
+        <section class="feedback">
+            <h1 style="text-align: center; font-size: 56px; margin-bottom: 0%;">FEEDBACK</h1>
+            <p style="font-size: 20px; text-align: center;">Feedback from my team members and friends are here: </p>
+              <div class="row" style="margin-top:0%;">
+                <div class="feedback-col" style="margin-top: 0%;">
+                    <img src="images\user1.jpg" style="margin-bottom: 0%;">
+                    <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nobis optio, soluta modi quam delectus dolorum harum, tempore a in incidunt itaque, ut repudiandae doloribus. Animi voluptatum tempore dolorem pariatur.</p>
+                      <p>⭐⭐⭐</p> 
+                    <h3>Aman</h3>
+                          </div>
+                </div>
+                <div class="feedback-col" style="margin-top: 0%;">
+                    <img src="images\user2.jpg">
+                    <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nobis optio, soluta modi quam delectus dolorum harum, tempore a in incidunt itaque, ut repudiandae doloribus. Animi voluptatum tempore dolorem pariatur.</p>
+                        
+                    <p>⭐⭐⭐⭐</p>
+                    <h3>Priyanshi</h3>
+                        </div>
+                </div>
+
+              </div>
+              <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your email" required>
+                    <input type="text" placeholder="Enter Your phone no." required>
+                    <textarea rows="8" placeholder="Your valuable feedback" required></textarea>
+                    <button type="submit" class="hero-btn" style="border-color: #f44336;">Send Feedback</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+        
+
+
+
+<!------------------Footer----------------->
+<section class="footer">
+    <h4 style="font-size: 30px;">Thank You For visiting My Portfolio</h4>
+    <p style="margin-bottom: 0%;font-size: 25px;">I am so thankful to you for visiting this portfolio.I am very much excited to work with you and your projects</p>
+</section>
+<div class="icon" style="margin-top: 0%; text-align: center;">
+    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+    <a href="http://www.google.com/gmail/"><i class="fa-brands fa-google"></i></a>
+    <a href="#"><i class="fa-solid fa-phone"></i></a>
+    <a href="linkedin.com/in/kushagra-mishra-886ab6242" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<p style="text-align: center;color:black;">Made By<i class="fa-solid fa-comment-smile"></i>Kushagra Mishra</p>
+
+        <!--java for toggleing menu in mobile appliacaton-->
+        <script>
+            var navLinks=document.getElementById("nav-links");
+            function showMenu()
+            {
+                navLinks.style.right="0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-280px";
+            }
+        </script>
+
+
+    </body>
+</html>

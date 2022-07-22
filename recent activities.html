@@ -1,0 +1,90 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title> About myself</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/5ecefd2893.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+ 
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="images/LOGO.jpeg"></a>
+                
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="recent activities.html">RECENT ACTIVITIES</a></li>
+                        <li><a href="Earned certificates.html">EARNED CERTIFICATES</a></li>
+                        <li><a href="FEEDBACK.html">FEEDBACKS</a></li>
+                        <li><a href="CONTACT.html">CONTACT ME</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>   
+            </nav>
+            <h1 style="font-size: 56px; margin-bottom:5%;">RECENT ACTIVITIES</h1>
+           
+        </section>
+        <div class="recentactivities">
+            <h1 style="color: rgb(14, 3, 3); font-size: 56px; margin-bottom: 0%;">MY RECENT PROJECTS</h1>
+            <p style="color: rgb(27, 13, 13); font-size:20px; ">All of my projects and recent activities can be seen here</p>
+            <div class="row" style="margin-top:0% ;">
+                <div class="activities-col">
+                    <h3 style="font-size=40px">SOLAR INVERTER</h3>
+                    <p style="font-size:20px ;">In this project I have made the system by joining solar panel to the DC battery which gets charged and enegized by solar panel.<br> This battery is connected to the transformer and various power electronics devices which step up the voltage and increase the efficiency of the project.<br>And make it convininent to use.</p>
+                </div>
+                <div class="activities-col">
+                    <h3 style="font-size=40px">Aurdino based smart vacum cleaner</h3>
+                    <p style="font-size:20px ;">In this project we have made a setup using motor wheels,aurdino uno and servo motors,ultrasonic sensor and 9v dc batteries.<br>in this project we have made connections and by the help of programming of aurdino uno the functioning of this model is robottic, i.e. it started to work automatically.</p>
+                </div>
+                <div class="activities-col">
+                    <h3 style="font-size=40px">Self Portfolio website</h3>
+                    <p style="font-size:20px ;">It is a ongoing project where i am updating my details and in making of this website i have used HTML and CSS.<br>In this website i have uploaded my resume and various other details so that any individual can know my skills more clearly</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+        </section>
+        
+
+
+<!------------------Footer----------------->
+<section class="footer">
+    <h4 style="font-size: 30px;">Thank You For visiting My Portfolio</h4>
+    <p style="margin-bottom: 0%;font-size: 25px;">I am so thankful to you for visiting this portfolio.I am very much excited to work with you and your projects</p>
+</section>
+<div class="icon" style="margin-top: 0%; text-align: center;">
+    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+    <a href="http://www.google.com/gmail/"><i class="fa-brands fa-google"></i></a>
+    <a href="#"><i class="fa-solid fa-phone"></i></a>
+    <a href="linkedin.com/in/kushagra-mishra-886ab6242" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<p style="text-align: center;color:black;">Made By<i class="fa-solid fa-comment-smile"></i>Kushagra Mishra</p>
+
+        <!--java for toggleing menu in mobile appliacaton-->
+        <script>
+            var navLinks=document.getElementById("nav-links");
+            function showMenu()
+            {
+                navLinks.style.right="0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-280px";
+            }
+        </script>
+
+
+    </body>
+</html>
